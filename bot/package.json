@@ -1,0 +1,29 @@
+{
+  "name": "the-abomination",
+  "version": "1.0.0",
+  "description": "Uses a discord bot to send website data w/o costing me any money hosting :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NegNebulous/the-abomination.git"
+  },
+  "keywords": [
+    "discordjs",
+    "js"
+  ],
+  "author": "NegNebulous",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NegNebulous/the-abomination/issues"
+  },
+  "homepage": "https://github.com/NegNebulous/the-abomination#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "discord.js": "13.3.1",
+    "dotenv": "^10.0.0"
+  }
+}
